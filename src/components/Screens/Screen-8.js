@@ -21,8 +21,13 @@ const Screen4 = () => {
 
       <div className="box">
         <div className="box-text">
-          Там трябва да намериш <span className="text-troika">купата</span> (за
-          награждаване). <br /> В нея се крие следващата улика.
+          Там трябва да намериш{" "}
+          <span className="text-troika">
+            {" "}
+            <br />
+            купата
+          </span>{" "}
+          🏆 (за награждаване). <br /> В нея се крие следващата улика.
         </div>
         <div className="box-text">
           Въведи думата изписана на бележеката, за да продължиш.
@@ -40,7 +45,9 @@ const Screen4 = () => {
         <Button
           onClick={buttonHandler}
           text="Към инструкциите"
-          screen={value.text.toLowerCase() === "mall-veliko-tarnovo" ? "/screen9" : ""}
+          screen={
+            value.text.toLowerCase() === "mall-veliko-tarnovo" ? "/screen9" : ""
+          }
           style={{
             width: "100%",
             height: "44px",

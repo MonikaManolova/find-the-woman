@@ -5,7 +5,7 @@ import { ReactComponent as Search } from "../icons/search.svg";
 const Screen5 = () => (
   <div>
     <Header style={{ fontSize: "35px", lineHeight: "40px" }}>
-      Бравооо! <br />
+      Бравооо! 🎉 <br />
       Вие успяхте!
     </Header>
 
