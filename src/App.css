@@ -24,6 +24,7 @@
 }
 
 .intro-word-1 {
+  margin-top: 30px;
   font-family: 'Troika';
   font-size: 58px;
   line-height: 50px;
@@ -47,7 +48,7 @@
 .graphic-intro {
   position: absolute;
   left: -80px;
-  top: -125px;
+  top: -95px;
 }
 
 .App-header {
